@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date = "
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/temp_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Min. Temp. = "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/temp_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Max. Temp. = "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sky = "
+        android:textSize="20sp" />
+</LinearLayout>
